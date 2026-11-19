@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:backgroundTint">#1F2937</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="ActionKeyBtn" parent="KeyBtn">
+        <item name="android:backgroundTint">#334155</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>
